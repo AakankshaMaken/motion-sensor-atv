@@ -6,10 +6,7 @@ Control an All-Terrain Vehicle (ATV) wirelessly using **hand gestures **, built 
 
 ## 📸 Demo
 
-> *(Insert a video or GIF showing the ATV responding to hand gestures)*  
-> Example:  
-> ![Demo](images/demo.gif)
-
+https://drive.google.com/file/d/1aarOkDeMrBbXxXq_LBuddCHbz-s8sTmm/view?usp=drive_link
 ---
 
 ## 🧠 Project Overview
