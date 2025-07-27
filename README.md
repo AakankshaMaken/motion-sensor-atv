@@ -16,7 +16,7 @@ Control an All-Terrain Vehicle (ATV) wirelessly using **hand gestures **, built 
 
 | Component      | Description                                    |
 |----------------|------------------------------------------------|
-| Transmitter    | Worn on the hand . Captures X/Y analog values and transmits via nRF24L01 |
+| Transmitter    | Worn on the hand. Captures X/Y analog values and transmits via nRF24L01 |
 | Receiver       | Mounted on ATV. Receives X/Y data and drives motors |
 | Communication  | nRF24L01 (2.4GHz wireless) |
 | Motor Driver   | L298N |
@@ -39,6 +39,7 @@ Control an All-Terrain Vehicle (ATV) wirelessly using **hand gestures **, built 
 ---
 
 ## 📁 Project Structure
+
 gesture-atv/
 ├── transmitter/
 │ └── transmitter.ino # Sends analog data wirelessly
@@ -47,9 +48,6 @@ gesture-atv/
 ├── images/
 │ └── circuit-diagram.png # Optional circuit diagram
 ├── README.md
-
-
----
 
 
 ---
@@ -86,9 +84,6 @@ void loop() {
   radio.write(&send_data, sizeof(data));
 }
 
-## 📟 Receiver Code
-
-```cpp
 // Arduino Gesture Control Robot
 // Receiver Circuit
 // Created by DIY Builder
@@ -179,5 +174,6 @@ void loop() {
     }
   }
 }
+
 
 
